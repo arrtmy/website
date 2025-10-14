@@ -26,9 +26,8 @@ app.get('/api', (req, res) => {
 });
 
 // SPA fallback для React Router
-app.get('/:path(*)', (req, res) => {
-  res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
-});
+
+app.get(/.*/, (req, res) => { res.sendFile(path.resolve(__dirname, "../frontend/dist", "index.html")); });
 
 app.listen(PORT, () => {
   console.log(`Сервер запущен на http://localhost:${PORT}`);
