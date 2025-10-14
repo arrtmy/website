@@ -8,7 +8,7 @@ app.use(
   express.static(path.join(__dirname, '../frontend/dist'), {
     setHeaders: (res, filePath) => {
       if (filePath.endsWith('.js')) {
-        res.setHeader('Content-Type', 'application/javascript');
+        res.setHeader('Content-Type', 'application/javascript js mjs');
       }
       if (filePath.endsWith('.css')) {
         res.setHeader('Content-Type', 'text/css');
@@ -28,7 +28,7 @@ app.get('/api', (req, res) => {
 // SPA fallback для React Router
 
 app.get('/{*path}', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '../frontend', 'dist', 'index.html'));
+  res.sendFile(path.resolve(__dirname, '../frontend/dist', 'index.html'));
 });
 
 app.listen(PORT, () => {
