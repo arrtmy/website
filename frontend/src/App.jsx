@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import About from './About';
 import License from './License';
 import Agreement from './Agreement';
+import ResetRedirect from './ResetRedirect';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/license" element={<License />} />
         <Route path="/agreement" element={<Agreement />} />
+        <Route path="/reset-password" element={<ResetRedirect />} />
       </Routes>
     </Router>
   );
