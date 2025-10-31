@@ -8,9 +8,9 @@ function App() {
   return (
     <Router>
       <nav style={{ marginBottom: 20 }}>
-        <Link to="/" style={{ marginRight: 10 }}>О себе</Link>
-        <Link to="/license" style={{ marginRight: 10 }}>Лицензия</Link>
-        <Link to="/agreement">Соглашение о персональных данных</Link>
+        <Link to="/" style={{ marginRight: 10 }}>О сервисе</Link>
+        <Link to="/public-offer" style={{ marginRight: 10 }}>Публичная оферта</Link>
+        <Link to="/confidentiality">Соглашение о конфиденциальности</Link>
       </nav>
       <Routes>
         <Route path="/" element={<About />} />
