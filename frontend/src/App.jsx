@@ -1,10 +1,8 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import About from './About';
-import License from './License';
-import Agreement from './Agreement';
-import ResetRedirect from './ResetRedirect';
+import PublicOffer from './PublicOffer';
 import './App.css';
+import Confidentiality from './Confidentiality';
 
 function App() {
   return (
@@ -16,9 +14,8 @@ function App() {
       </nav>
       <Routes>
         <Route path="/" element={<About />} />
-        <Route path="/license" element={<License />} />
-        <Route path="/agreement" element={<Agreement />} />
-        <Route path="/reset-password" element={<ResetRedirect />} />
+        <Route path="/public-offer" element={<PublicOffer />} />
+        <Route path="/confidentiality" element={<Confidentiality />} />
       </Routes>
     </Router>
   );
