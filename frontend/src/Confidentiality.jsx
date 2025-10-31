@@ -2,10 +2,20 @@ import React from 'react';
 
 function Confidentiality() {
   return (
-    <div>
+    <div style={{ padding: 20, maxWidth: 900, margin: '0 auto' }}>
       <h2>Соглашение о конфиденциальности</h2>
-      <Text style={{ text: { fontSize: 14, color: '#222', lineHeight: 20 }, }}>
-        {`Дата последнего обновления: 28 октября 2025 г. Версия 1.
+      <pre
+        style={{
+          fontFamily: 'monospace',
+          whiteSpace: 'pre-wrap',
+          fontSize: 14,
+          color: '#222',
+          lineHeight: 1.6,
+          background: '#fff',
+          textAlign: 'left',
+        }}>
+        <code>
+          {`Дата последнего обновления: 28 октября 2025 г. Версия 1.
 
 1. Общие положения
 Настоящая Политика конфиденциальности (далее — «Политика») регулирует порядок сбора, обработки, хранения и защиты персональных данных пользователей (далее — «Пользователи») мобильного приложения «Доставка» (далее — «Приложение»).
@@ -65,7 +75,8 @@ function Confidentiality() {
 9. Контактная информация
 По вопросам, касающимся настоящей Политики конфиденциальности, Пользователи могут обращаться по адресу: dostavka24.service@yandex.ru.
 Настоящая Политика конфиденциальности размещена по адресу: https://dostavka24-7.ru/confidentiality. `}
-      </Text>
+        </code>
+      </pre>
     </div>
   );
 }
