@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <div style={{ padding: 20, maxWidth: 900, margin: '0 auto' }}>
-      <h2>О сервисе «Доставка Анадырь»</h2>
+      <h2>О сервисе «Север Гоу»</h2>
       <pre
         style={{
           fontFamily: 'monospace',
