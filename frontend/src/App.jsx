@@ -14,8 +14,8 @@ function App() {
         <Link to="/" style={{ marginRight: 10 }}>О сервисе</Link>
         <Link to="/public-offer" style={{ marginRight: 10 }}>Публичная оферта</Link>
         <Link to="/nopublic-offer" style={{ marginRight: 10 }}>Непубличная оферта</Link>
-        <Link to="/confidentiality">Соглашение о конфиденциальности для клиентов</Link>
-        <Link to="/confidentiality-partners">Соглашение о конфиденциальности для парнеров</Link>
+        <Link to="/confidentiality" style={{ marginRight: 10 }}>Соглашение о конфиденциальности для клиентов</Link>
+        <Link to="/confidentiality-partners" style={{ marginRight: 10 }}>Соглашение о конфиденциальности для парнеров</Link>
       </nav>
       <Routes>
         <Route path="/" element={<About />} />
