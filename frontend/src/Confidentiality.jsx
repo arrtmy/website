@@ -73,7 +73,7 @@ function Confidentiality() {
 
 9. Контактная информация
 По вопросам, касающимся настоящей Политики конфиденциальности, Пользователи могут обращаться по адресу: dostavka24.service@yandex.ru.
-Настоящая Политика конфиденциальности размещена по адресу: https://delivery-eats.ru/confidentiality. `}
+Настоящая Политика конфиденциальности размещена по адресу: https://sever-go.ru/confidentiality. `}
         </code>
       </pre>
     </div>

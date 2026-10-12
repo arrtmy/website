@@ -62,7 +62,7 @@ Please change the parent <Route path="${X}"> to <Route path="${X==="/"?"*":`${X}
         ИНН: 870902038496 / ОГРНИП: 326870000001178
         Адрес: Россия, Чукотский АО, г. Анадырь, ул. Отке, д. 1, кв. 18.
         О нас:
-        Мы — технологическая платформа, которая объединяет рестораны, магазины и кафе города Анадырь с жителями. Наш сервис помогает малому и среднему бизнесу принимать заказы онлайн, обеспечивая клиентам удобный процесс выбора, прозрачную обработку и быструю доставку.
+        Мы — технологическая платформа, которая объединяет рестораны, магазины и кафе города с жителями. Наш сервис помогает малому и среднему бизнесу принимать заказы онлайн, обеспечивая клиентам удобный процесс выбора, прозрачную обработку и быструю доставку.
         Наша цель — сделать заказ еды и товаров из любимых заведений простым, доступным и надежным.
         Поддержка:
         Если у вас возникли вопросы по работе сервиса или есть предложения по сотрудничеству, наша служба поддержки всегда на связи.
@@ -71,7 +71,7 @@ Please change the parent <Route path="${X}"> to <Route path="${X==="/"?"*":`${X}
 1. Общие положения
 1.1. Настоящий документ (далее — «Оферта») является официальным публичным предложением ИП Жукова Артёма Владимировича (ИНН 870902038496, ОГРНИП 326870000001178), зарегистрированного по адресу: РФ, 689000, Чукотский АО, г. Анадырь, ул. Отке, дом 1, кв. 18, именуемого в дальнейшем «Исполнитель», заключить Договор об оказании услуг Сервиса по оформлению заказов и доставке еды (далее — «Договор») на условиях, изложенных в настоящей Оферте.
 1.2. В соответствии с п. 2 ст. 437 ГК РФ, данный документ является публичной офертой.
-1.3. Перед началом пользования Приложением Заказчик обязан ознакомиться с Офертой по адресу: delivery-eats.ru/public-offer и Политикой конфиденциальности: delivery-eats.ru/confidentiality.
+1.3. Перед началом пользования Приложением Заказчик обязан ознакомиться с Офертой по адресу: https://sever-go.ru/public-offer и Политикой конфиденциальности: https://sever-go.ru/confidentiality.
 1.4. Акцептом (принятием) Оферты является регистрация в мобильном приложении «Север Гоу» или оформление Заказа. Это означает полное согласие Заказчика со всеми условиями.
 
 2. Предмет договора
@@ -213,7 +213,7 @@ Email: dostavka24.service@yandex.ru
 
 9. Контактная информация
 По вопросам, касающимся настоящей Политики конфиденциальности, Пользователи могут обращаться по адресу: dostavka24.service@yandex.ru.
-Настоящая Политика конфиденциальности размещена по адресу: https://delivery-eats.ru/confidentiality. `})})]})}function Rv(){return lt.jsxs("div",{style:{padding:20,maxWidth:900,margin:"0 auto"},children:[lt.jsx("h2",{children:"ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ ЛИЧНОГО КАБИНЕТА ПАРТНЕРА «СЕВЕР ГОУ»"}),lt.jsx("pre",{style:{fontFamily:"monospace",whiteSpace:"pre-wrap",fontSize:14,color:"#222",lineHeight:1.6,background:"#fff",textAlign:"left"},children:lt.jsx("code",{children:`Дата последнего обновления: 01 июня 2026 г. Версия 1.0.
+Настоящая Политика конфиденциальности размещена по адресу: https://sever-go.ru/confidentiality. `})})]})}function Rv(){return lt.jsxs("div",{style:{padding:20,maxWidth:900,margin:"0 auto"},children:[lt.jsx("h2",{children:"ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ ЛИЧНОГО КАБИНЕТА ПАРТНЕРА «СЕВЕР ГОУ»"}),lt.jsx("pre",{style:{fontFamily:"monospace",whiteSpace:"pre-wrap",fontSize:14,color:"#222",lineHeight:1.6,background:"#fff",textAlign:"left"},children:lt.jsx("code",{children:`Дата последнего обновления: 01 июня 2026 г. Версия 1.0.
 
 1. Общие положения
 1.1. Настоящая Политика конфиденциальности (далее — «Политика») регулирует порядок сбора, обработки, хранения и защиты персональных данных пользователей (далее — «Партнеры» или «Пользователи») личного кабинета сервиса «Север Гоу» (далее — «Личный кабинет» или «Сервис»), предназначенного для взаимодействия с юридическими лицами и индивидуальными предпринимателями.
@@ -266,9 +266,9 @@ Email: dostavka24.service@yandex.ru
 7.2. Финансовые, юридические и регистрационные данные (договоры, счета, доверенности) подлежат хранению в течение 5 (пяти) лет с момента последнего взаимодействия, в соответствии с требованиями Федерального закона № 129-ФЗ «О бухгалтерском учете» и налогового законодательства.
 
 8. Изменение Политики
-8.1. Оператор вправе обновлять Политику в любое время. Новая редакция вступает в силу с момента ее публикации по адресу: https://delivery-eats.ru/confidentiality-partners.
+8.1. Оператор вправе обновлять Политику в любое время. Новая редакция вступает в силу с момента ее публикации по адресу: https://sever-go.ru/confidentiality-partners.
 8.2. Продолжение использования Личного кабинета после обновления Политики означает согласие Партнера с изменениями.
 
 9. Контактная информация
 По вопросам, касающимся настоящей Политики конфиденциальности, а также для направления официальных запросов, Партнеры могут обращаться по адресу: dostavka24.service@yandex.ru.
-Настоящая Политика конфиденциальности размещена по адресу: https://delivery-eats.ru/confidentiality-partners.`})})]})}function Dv(){return lt.jsxs(mv,{children:[lt.jsxs("nav",{style:{marginBottom:20},children:[lt.jsx($e,{to:"/",style:{marginRight:10},children:"О сервисе"}),lt.jsx($e,{to:"/public-offer",style:{marginRight:10},children:"Публичная оферта"}),lt.jsx($e,{to:"/nopublic-offer",style:{marginRight:10},children:"Непубличная оферта"}),lt.jsx($e,{to:"/confidentiality",style:{marginRight:10},children:"Соглашение о конфиденциальности для клиентов"}),lt.jsx($e,{to:"/confidentiality-partners",style:{marginRight:10},children:"Соглашение о конфиденциальности для парнеров"})]}),lt.jsxs(Ky,{children:[lt.jsx(Na,{path:"/",element:lt.jsx(Av,{})}),lt.jsx(Na,{path:"/public-offer",element:lt.jsx(_v,{})}),lt.jsx(Na,{path:"/confidentiality",element:lt.jsx(Mv,{})}),lt.jsx(Na,{path:"/nopublic-offer",element:lt.jsx(Ov,{})}),lt.jsx(Na,{path:"/confidentiality-partners",element:lt.jsx(Rv,{})})]})]})}ty.createRoot(document.getElementById("root")).render(lt.jsx(x.StrictMode,{children:lt.jsx(Dv,{})}));
+Настоящая Политика конфиденциальности размещена по адресу: https://sever-go.ru/confidentiality-partners.`})})]})}function Dv(){return lt.jsxs(mv,{children:[lt.jsxs("nav",{style:{marginBottom:20},children:[lt.jsx($e,{to:"/",style:{marginRight:10},children:"О сервисе"}),lt.jsx($e,{to:"/public-offer",style:{marginRight:10},children:"Публичная оферта"}),lt.jsx($e,{to:"/nopublic-offer",style:{marginRight:10},children:"Непубличная оферта"}),lt.jsx($e,{to:"/confidentiality",style:{marginRight:10},children:"Соглашение о конфиденциальности для клиентов"}),lt.jsx($e,{to:"/confidentiality-partners",style:{marginRight:10},children:"Соглашение о конфиденциальности для парнеров"})]}),lt.jsxs(Ky,{children:[lt.jsx(Na,{path:"/",element:lt.jsx(Av,{})}),lt.jsx(Na,{path:"/public-offer",element:lt.jsx(_v,{})}),lt.jsx(Na,{path:"/confidentiality",element:lt.jsx(Mv,{})}),lt.jsx(Na,{path:"/nopublic-offer",element:lt.jsx(Ov,{})}),lt.jsx(Na,{path:"/confidentiality-partners",element:lt.jsx(Rv,{})})]})]})}ty.createRoot(document.getElementById("root")).render(lt.jsx(x.StrictMode,{children:lt.jsx(Dv,{})}));
