@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import About from './About';
 import PublicOffer from './PublicOffer';
 import NoPublicOffer from './NoPublicOffer';
+import NoPublicOfferAddendum from './NoPublicOfferAddendum';
 import './App.css';
 import Confidentiality from './Confidentiality';
 import ConfidentialityPartner from './ConfidentialityPartner';
@@ -14,6 +15,7 @@ function App() {
         <Link to="/" style={{ marginRight: 10 }}>О сервисе</Link>
         <Link to="/public-offer" style={{ marginRight: 10 }}>Публичная оферта</Link>
         <Link to="/nopublic-offer" style={{ marginRight: 10 }}>Непубличная оферта</Link>
+        <Link to="/nopublic-offer-addendum" style={{ marginRight: 10 }}>Доп. соглашение № 1 для партнеров</Link>
         <Link to="/confidentiality" style={{ marginRight: 10 }}>Соглашение о конфиденциальности для клиентов</Link>
         <Link to="/confidentiality-partners" style={{ marginRight: 10 }}>Соглашение о конфиденциальности для парнеров</Link>
       </nav>
@@ -22,6 +24,7 @@ function App() {
         <Route path="/public-offer" element={<PublicOffer />} />
         <Route path="/confidentiality" element={<Confidentiality />} />
         <Route path="/nopublic-offer" element={<NoPublicOffer />} />
+        <Route path="/nopublic-offer-addendum" element={<NoPublicOfferAddendum />} />
         <Route path="/confidentiality-partners" element={<ConfidentialityPartner />} />
       </Routes>
     </Router>
