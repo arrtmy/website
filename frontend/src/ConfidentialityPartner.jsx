@@ -1,21 +1,9 @@
 import React from 'react';
+import LegalDoc from './LegalDoc';
 
-function ConfidentialityPartner() {
-  return (
-    <div style={{ padding: 20, maxWidth: 900, margin: '0 auto' }}>
-      <h2>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ ЛИЧНОГО КАБИНЕТА ПАРТНЕРА «СЕВЕР ГОУ»</h2>
-      <pre
-        style={{
-          fontFamily: 'monospace',
-          whiteSpace: 'pre-wrap',
-          fontSize: 14,
-          color: '#222',
-          lineHeight: 1.6,
-          background: '#fff',
-          textAlign: 'left',
-        }}>
-        <code>
-          {`Дата последнего обновления: 01 июня 2026 г. Версия 1.0.
+const TITLE = "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ ЛИЧНОГО КАБИНЕТА ПАРТНЕРА «СЕВЕР ГОУ»";
+
+const TEXT = `Дата последнего обновления: 01 июня 2026 г. Версия 1.0.
 
 1. Общие положения
 1.1. Настоящая Политика конфиденциальности (далее — «Политика») регулирует порядок сбора, обработки, хранения и защиты персональных данных пользователей (далее — «Партнеры» или «Пользователи») личного кабинета сервиса «Север Гоу» (далее — «Личный кабинет» или «Сервис»), предназначенного для взаимодействия с юридическими лицами и индивидуальными предпринимателями.
@@ -73,11 +61,10 @@ function ConfidentialityPartner() {
 
 9. Контактная информация
 По вопросам, касающимся настоящей Политики конфиденциальности, а также для направления официальных запросов, Партнеры могут обращаться по адресу: dostavka24.service@yandex.ru.
-Настоящая Политика конфиденциальности размещена по адресу: https://sever-go.ru/confidentiality-partners.`}
-        </code>
-      </pre>
-    </div>
-  );
+Настоящая Политика конфиденциальности размещена по адресу: https://sever-go.ru/confidentiality-partners.`;
+
+function ConfidentialityPartner() {
+  return <LegalDoc title={TITLE} text={TEXT} />;
 }
 
 export default ConfidentialityPartner;

@@ -1,22 +1,9 @@
 import React from 'react';
+import LegalDoc from './LegalDoc';
 
-function NoPublicOffer() {
-  return (
-    <div style={{ padding: 20, maxWidth: 900, margin: '0 auto',  }}>
-      <h2>
-        ДОГОВОР-ОФЕРТА № П-2026 на оказание услуг сервиса «Север Гоу» (для партнеров)
-      </h2>
-      <pre
-        style={{
-          fontFamily: 'monospace',
-          whiteSpace: 'pre-wrap',
-          fontSize: 14,
-          color: '#222',
-          lineHeight: 1.6,
-          background: '#fff',
-          textAlign: 'left'
-        }}>
-        <code>{`Дата последнего обновления: 22 мая 2026 г. Версия 1.0.
+const TITLE = "ДОГОВОР-ОФЕРТА № П-2026 на оказание услуг сервиса «Север Гоу» (для партнеров)";
+
+const TEXT = `Дата последнего обновления: 22 мая 2026 г. Версия 1.0.
 г. Анадырь
 1. ОБЩИЕ ПОЛОЖЕНИЯ
 1.1. Настоящий документ является официальным предложением ИП Жукова Артёма Владимировича (ИНН 870902038496, ОГРНИП 326870000001178), именуемого в дальнейшем «Исполнитель», заключить Договор об оказании услуг с любым юридическим лицом или индивидуальным предпринимателем (далее — «Партнер»).
@@ -57,12 +44,10 @@ function NoPublicOffer() {
 БИК 044525974
 Адрес: РФ, 689000, Чукотский АО, г. Анадырь, ул. Отке, дом 1, кв. 18.
 Email: dostavka24.service@yandex.ru
-Тел.: +79145353829
- 
-      `}</code>
-      </pre>
-    </div>
-  );
+Тел.: +79145353829`;
+
+function NoPublicOffer() {
+  return <LegalDoc title={TITLE} text={TEXT} />;
 }
 
 export default NoPublicOffer;

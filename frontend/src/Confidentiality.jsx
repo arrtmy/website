@@ -1,21 +1,9 @@
 import React from 'react';
+import LegalDoc from './LegalDoc';
 
-function Confidentiality() {
-  return (
-    <div style={{ padding: 20, maxWidth: 900, margin: '0 auto' }}>
-      <h2>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ МОБИЛЬНОГО ПРИЛОЖЕНИЯ «СЕВЕР ГОУ»</h2>
-      <pre
-        style={{
-          fontFamily: 'monospace',
-          whiteSpace: 'pre-wrap',
-          fontSize: 14,
-          color: '#222',
-          lineHeight: 1.6,
-          background: '#fff',
-          textAlign: 'left',
-        }}>
-        <code>
-          {`Дата последнего обновления: 22 мая 2026 г. Версия 1.0.
+const TITLE = "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ МОБИЛЬНОГО ПРИЛОЖЕНИЯ «СЕВЕР ГОУ»";
+
+const TEXT = `Дата последнего обновления: 22 мая 2026 г. Версия 1.0.
 
 1. Общие положения
 1.1. Настоящая Политика конфиденциальности (далее — «Политика») регулирует порядок сбора, обработки, хранения и защиты персональных данных пользователей (далее — «Пользователи») мобильного приложения «Север Гоу» (далее — «Приложение»).
@@ -73,11 +61,10 @@ function Confidentiality() {
 
 9. Контактная информация
 По вопросам, касающимся настоящей Политики конфиденциальности, Пользователи могут обращаться по адресу: dostavka24.service@yandex.ru.
-Настоящая Политика конфиденциальности размещена по адресу: https://sever-go.ru/confidentiality. `}
-        </code>
-      </pre>
-    </div>
-  );
+Настоящая Политика конфиденциальности размещена по адресу: https://sever-go.ru/confidentiality.`;
+
+function Confidentiality() {
+  return <LegalDoc title={TITLE} text={TEXT} />;
 }
 
 export default Confidentiality;
